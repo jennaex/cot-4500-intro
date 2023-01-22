@@ -9,7 +9,7 @@ if __name__ == '__main__':
     Q1 = np.where(i == j, 1 , 0)
     print (Q1, "\n")
 
-    #For quesion 2, use the np.where condition to add 3 to each cell
+    #For quesion 2, use the np.where condition to add 3 to each cell where i does not equal j
     Q2 = np.where(i != j, Q1 + 3 , Q1 + 0)
     print (Q2, "\n")
 
